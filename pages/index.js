@@ -238,7 +238,7 @@ export default function Home() {
     if (!presaleStarted) {
       return (
         <div>
-          <div className='description'>Presale hasn't started</div>
+          <div className='description'>Presale hasn&apos;t started</div>
         </div>
       );
     }
@@ -276,7 +276,7 @@ export default function Home() {
         <div>
           <h1 className='title'>Welcome to Crypto Devs!</h1>
           <div className='description'>
-            It's an NFT collection for developers in Crypto.
+            It&apos;s an NFT collection for developers in Crypto.
           </div>
           <div className='description'>
             {tokenIdsMinted}/20 have been minted
